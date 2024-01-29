@@ -5,7 +5,61 @@ font-family: 'Poppins', sans-serif;
 font-family: 'PT Serif', serif;
 font-family: 'Roboto Slab', serif; */
 
-h1 {
-  font-family: "Playfair Display", serif;
+:root {
+  --branding-color: #20201f;
+  --heading-font-family: "Playfair Display", serif;
+  --default-font-family: "Poppins", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--heading-font-family);
   font-weight: bold;
+}
+
+h1 {
+  font-size: 94px;
+}
+
+p {
+  font-family: var(--default-font-family);
+  font-weight: normal;
+}
+
+.hero {
+  background-color: #20201f;
+  text-align: center;
+  padding: 160px 20px;
+}
+
+.hero h1,
+h2,
+p {
+  color: #fefefb;
+}
+
+.hero p {
+  font-size: 36px;
+  margin: 0;
+}
+
+.hero h2 {
+  font-family: var(--default-font-family);
+  font-weight: normal;
+  font-size: 26px;
+  line-height: 2;
+}
+
+.btn-branding {
+  background-color: #20201f;
+  color: #fefefb;
+  border: 2px solid #fefefb;
+  border-radius: 5px;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 12px 30px;
+  margin-top: 25px;
+  box-shadow: rgba(239, 239, 239, 0.2) 0px 3px 15px 0px;
 }
