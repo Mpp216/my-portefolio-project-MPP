@@ -70,8 +70,9 @@ p {
   font-size: 18px;
   line-height: 27px;
   padding: 12px 30px;
-  margin-top: 25px;
+
   box-shadow: rgba(239, 239, 239, 0.2) 0px 3px 15px 0px;
+  transition: all 100ms ease-in-out;
 }
 
 .btn-branding:hover {
@@ -95,7 +96,7 @@ p {
 }
 
 .about-section {
-  padding: 160px 30px;
+  padding: 70px 30px;
 }
 
 .about-me h1 {
@@ -168,6 +169,51 @@ p {
   text-align: center;
 }
 
+footer {
+  margin: 60px 0;
+}
+
+footer .contact-box {
+  background-color: #20201f;
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+
+footer h4 {
+  color: white;
+  font-size: 40px;
+}
+
+footer p {
+  color: #fefefb;
+  font-size: 20px;
+}
+
+footer .email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+}
+
+footer .email-link:hover {
+  color: #f6cf1c;
+}
+
+footer .social-links a {
+  margin: 20px;
+  color: #fefefb;
+  background-color: #20201f;
+  padding: 11px 16px;
+  font-size: 18px;
+  border-radius: 50%;
+}
+
+footer .social-links a:hover {
+  color: #20201f;
+  background-color: #fefefb;
+  transition: all 100ms ease-in-out;
+}
+
 @media (max-width: 900px) {
   .hero {
     padding: 80px 20px;
@@ -222,5 +268,9 @@ p {
   }
   .content h3 {
     font-size: 19px;
+  }
+
+  footer .contact-box {
+    padding: 30px;
   }
 }
