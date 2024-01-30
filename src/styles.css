@@ -70,8 +70,6 @@ p {
   font-size: 18px;
   line-height: 27px;
   padding: 12px 30px;
-
-  box-shadow: rgba(239, 239, 239, 0.2) 0px 3px 15px 0px;
   transition: all 100ms ease-in-out;
 }
 
@@ -167,6 +165,10 @@ p {
 
 .contact p {
   text-align: center;
+}
+
+.contact p a {
+  color: #f6cf1c;
 }
 
 footer {
