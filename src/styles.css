@@ -89,14 +89,13 @@ p {
   padding: 120px 60px;
 }
 
-.about-me {
-  margin: 80px 0;
+.about-section {
+  padding: 160px 20px;
 }
 
 .about-me h1 {
   font-size: 65px;
-  text-align: left;
-  margin-top: 40px;
+  margin-top: 30px;
 }
 
 .about-me h2 {
@@ -104,7 +103,6 @@ p {
   font-weight: normal;
   margin-top: 20px;
   font-size: 35px;
-  text-align: left;
 }
 
 .maria-photo {
@@ -124,7 +122,7 @@ p {
   padding: 12px 30px;
 }
 
-@media (max-width: 960px) {
+@media (max-width: 900px) {
   .hero {
     padding: 80px 20px;
   }
@@ -134,6 +132,23 @@ p {
   }
   .hero p {
     font-size: 30px;
+  }
+
+  .about-section {
+    text-align: center;
+    padding: 0;
+  }
+
+  .about-me h1 {
+    font-size: 45px;
+  }
+
+  .about-me h2 {
+    font-size: 25px;
+  }
+
+  .about-me p {
+    padding: 0 10px;
   }
 
   h1 {
@@ -147,5 +162,12 @@ p {
   .project-description {
     padding: 0;
     text-align: center;
+  }
+
+  .maria-photo {
+    max-width: 90%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: none;
   }
 }
